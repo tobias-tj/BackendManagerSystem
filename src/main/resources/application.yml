@@ -33,4 +33,4 @@ server:
       enabled: false
 
 stripe:
-  apiKey: DeKeyTest12123
+  apiKey: DeKeyTest121232342
