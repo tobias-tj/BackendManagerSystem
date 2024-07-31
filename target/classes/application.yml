@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/projectsdb
-    username:
-    password:
+    username: postgres
+    password: admin
   jpa:
     database-platform: org.hibernate.dialect.PosgreSQLInnoDBDialect
     generate-ddl: true
@@ -17,8 +17,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: "*********"
-    password: "*********"
+    username: "https.tobias.jara.404@gmail.com"
+    password: "Tobias@1004"
     properties:
       mail:
         smtp:
@@ -33,4 +33,4 @@ server:
       enabled: false
 
 stripe:
-  apiKey: DeKeyTest12123
+  apiKey: sk_test_51OltaMAk00cbhskWbLIJPPaOFdhDV73cfdU2UE9Im37jBEusRghuDL0SUertCiGpEqksabX3wKiAopTW1vLf5n9J00Apwvk1Hz
